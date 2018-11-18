@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a,p{
+	font-family: "Raleway";
+}
+.navbar{
+	background:#F97300;
+}
+
+.nav-link{
+	color: #fff!important;
+	cursor: pointer;
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color:#F97300!important;
+	padding-left: 10px;
+
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.logo{
+	width: 100px;
+}
+
+/*header style*/
+.header{
+	position: relative;
+	background-image: url('../images/headerback.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+h1{
+	color:#F97300 ;
+}
+h2{
+	color: #F97300;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+h3{
+	padding-top: 50px;
+	font-size: 18px;
+}
+.description p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button, .infor button{
+	border:1px  solid #F97300;
+	background:#F97300;
+	color:#fff;
+}
+
+.infor button{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+
+.services, .portfolio, .we, .infor, .contact-form{
+	margin: 6em 0;
+	padding: 1em;
+	position: relative;
+	color: #666;
+}
+.services a{
+	display: block;
+	padding-left: 10px;
+	line-height: 2;
+	color:#666;
+}
+.services a:hover{
+	color:#F97300 ;
+	text-decoration: none;
+	font-size: 16px;
+}
+.services a i{
+	padding-right:  10px;
+}
+
+form{
+	margin-top: 20px; 
+
+}
+
+.portfolio div{
+	clear: both;
+}
+.portfolio p{
+	line-height: 3;
+}
+
+
+.portfolio img{
+	 margin: 1em;
+	 float: left;
+
+	
+
+}
+.card{
+	background-color: transparent;
+	border:0;
+}
+
+.contact-form{
+	background-color: lightgrey;
+	padding-top: 80px;
+	padding-bottom:  80px;
+
+}
